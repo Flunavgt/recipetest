@@ -5,6 +5,9 @@
      </title>
      <meta charset="utf-8">
 <link rel="stylesheet" href="css/recipe_book.css">
+<script src="JS/recipe_book.js"></script>
+
+
     </head>
 <body>
     <h1> Creamy Chicken Pasta </h1> 
@@ -71,6 +74,26 @@
         </div>
         <div class="three"></div>
     </div>
+
+    <p>
+    <label for="weather">Select the weather type today: </label>
+    <select id="weather">
+      <option value="">--Make a choice--</option>
+      <option value="sunny">Sunny</option>
+      <option value="rainy">Rainy</option>
+      <option value="snowing">Snowing</option>
+      <option value="overcast">Overcast</option>
+    </select>
+    
+    </p>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+
+
+    
 
 </body>
    
